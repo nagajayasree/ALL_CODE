@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="ch2.css" rel="stylesheet">
+</head>
+<body>
+    <p id="hexCode">HEX COLOR: </p>
+    <button id="btn" onclick="getHexCode()">Click Here</button>
+    <script>
+        let button = document.getElementById("btn");
+        let body = document.getElementById("body");
+        let hexValues = [0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F'];
+        let value = document.getElementById('hexCode');
+
+        button.addEventListener('click',getHexCode)
+        function getHexCode(){
+            let hex = '#';
+            for(let i = 0;i < 6;i++){
+                let index = Math.floor(Math.random()*hexValues.length);
+                hex += hexValues[index];
+            }
+            value.innerText = hex
+            body.style.backgroundColor = hex
+        }
+    </script>
+</body>
+</html>

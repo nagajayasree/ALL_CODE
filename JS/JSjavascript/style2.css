@@ -1,0 +1,25 @@
+div{
+    text-align: center;
+    padding: 0.5cm;
+    background-color: papayawhip;
+    background-attachment: fixed;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button{
+    border: 5cm;
+    border-radius: 2pc;
+}
+
+#txtbx1{
+    border-radius: 1px;
+}
+
+#txtbx2{
+    border-radius: 1px;
+}
+

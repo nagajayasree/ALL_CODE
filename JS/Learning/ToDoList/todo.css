@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background: rgb(177, 149, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+#about{
+    color: rgba(90, 52, 185, 0.808);
+}
+
+input{
+    border-radius: 5px;
+    min-width: 30%;
+    padding: 5px;
+    border: none;
+}
+
+#btn1{
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+
+#btn2{
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+
+#btn1:hover{
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: gray;
+}
+
+#btn2:hover{
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: gray;
+}

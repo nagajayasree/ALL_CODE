@@ -1,0 +1,33 @@
+
+body{
+    background: linear-gradient(to right,rgb(241, 239, 76),rgb(83, 248, 83));
+    /* background-image: url("bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+h1{
+    animation: name 5s 5;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    position: relative;
+    color: rgb(37, 22, 122);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7cm;
+    /* text-shadow: 2px 2px rgb(224, 84, 19); */
+    transition-duration: 10s;
+}
+
+h1:hover{
+    transform: rotate3d();
+}
+
+@keyframes name{
+    50%   {left: 20px; right: 20px;}
+
+}
+

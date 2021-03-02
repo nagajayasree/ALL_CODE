@@ -1,0 +1,27 @@
+body{
+    background: rgb(241, 239, 90);
+    text-align: center;
+    padding: 20ex;
+}
+
+.question-container{
+    background: rgb(238, 118, 63);
+    padding: 10ex;
+}
+
+#ok-button{
+    color: white;
+    background-color: rgb(35, 38, 231);
+    opacity: 80%;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 1px 5px;
+    border: inherit;
+    border-radius: 2px;
+}
+
+#ok-button:hover{
+    color: black;
+    background-color: darkgrey;
+    border-color: black;
+}

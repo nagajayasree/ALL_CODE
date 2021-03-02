@@ -1,0 +1,33 @@
+<html>
+  <head>
+      <title>Add and Remove Textboxes </title>
+  </head>
+  <body>
+        <form>
+        <input id="btn" type="button" value="add" onclick="AddTextBox()"/>
+        <br>
+        <br>
+        <div id="TextBoxContainer">
+        </div>
+        <br>
+        <button type="submit" onclick="submit()">Submit</button>
+        </form>
+        
+        <script type="text/javascript">
+        function GetDynamicTextbox(value){
+            return '<input name = "GetDynamicTextbox" type="text" value = "' + value + '"/>'+
+            '<input type="button" value="Remove" onclick="RemoveTextBox(this)"/>'
+        }
+
+        function AddTextBox(){
+            let div=document.createElement('DIV');
+            div.innerHTML = GetDynamicTextbox("");
+            document.getElementById("TextBoxContainer").appendChild(div);
+        }
+
+        function RemoveTextBox(div){
+            document.getElementById("TextBoxContainer").removeChild(div.parentNode);
+        }
+        </script>
+    </body>        
+</html>

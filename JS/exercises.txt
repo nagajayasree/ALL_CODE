@@ -1,0 +1,7 @@
+https://repl.it/repls/RottenOpulentCookie - object example
+https://repl.it/repls/ZestyDarkvioletAmpersand  - factory function example
+https://repl.it/repls/FlippantScalySystemcall  -  constructor function example
+
+
+concepts
+

@@ -1,0 +1,36 @@
+next week monday ES6,nodejs should be completed
+
+
+https://repl.it/repls/GrimOpulentFile   -- map and promise
+
+https://repl.it/repls/ReliableWoozyConfiguration  -- sets ex
+
+https://repl.it/repls/RottenMadeupCopyright  -- plane ex
+
+https://repl.it/repls/MagnificentExcellentFacts  -- car ex
+
+https://repl.it/repls/PriceyEnormousNetbsd     -- mobile example
+
+https://repl.it/repls/BarrenMonthlyPackagedsoftware  -- student example
+
+https://repl.it/repls/OutrageousSugaryDigits -- proxy ex
+
+phonebook=http://www.diveintojavascript.com/tutorials/web-storage-tutorial-creating-an-address-book-application
+
+cd desktop
+mkdir mysql-test
+cd mysql-test
+npm init -y
+npm install mysql
+
+
+echo "# sanskrit-central" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/nagajayasree/sanskrit-central.git
+git push -u origin master
+                
+
+git remote add origin https://github.com/nagajayasree/sanskrit-central.git
+git push -u origin master
