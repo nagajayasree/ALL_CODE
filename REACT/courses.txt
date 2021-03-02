@@ -1,0 +1,53 @@
+java script    https://javascript.info/intro,https://www.guru99.com/introduction-to-javascript.html,
+ES6
+React js
+rest api
+React native
+redux
+graphql
+
+
+python
+php
+xml
+java
+asp.net
+bootstrap
+
+
+diff b/w web server and website
+diff b/w client and server side scripting
+
+
+
+
+deconstruct the skill
+  decide exactly what you want to do when your done,look into the skill and break it down into pieces
+  practice the most imp things first,you can be able to improve performance,perform well then in the least time
+
+
+
+learn enough to self correct
+
+
+remove practice barriers
+  distractions should be removed  
+
+practice atleast 20hrs
+
+
+
+
+
+https://www.frontendmayhem.com/javascript-arrays-vs-sets/
+
+https://www.frontendmayhem.com/javascript-set-vs-weakset/
+
+https://www.frontendmayhem.com/objects-vs-maps/
+
+https://www.frontendmayhem.com/javascript-arrays-objects/
+
+https://bitsofco.de/for-in-vs-for-of/
+
+https://www.tutorialspoint.com/nodejs/index.htm
+

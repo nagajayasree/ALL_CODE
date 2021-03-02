@@ -1,0 +1,26 @@
+.feed_detail {
+  margin-top: 50px;
+  display: block;
+  text-align: justify;
+  word-spacing: normal;
+}
+
+.feed_title {
+  font-size: 25px;
+}
+
+.feed_desc {
+  font-size: 15px;
+  text-indent: 30px;
+  margin-top: 30px;
+}
+
+.vdeo_list {
+  margin-top: -60px;
+  margin-left: 30px;
+}
+
+.getVList {
+  margin-top: 0px;
+  margin-left: 5px;
+}

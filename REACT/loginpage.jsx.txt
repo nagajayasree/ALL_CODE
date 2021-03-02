@@ -1,0 +1,74 @@
+import React, { Component } from "react";
+import "./LoginPage.css";
+
+class LoginPage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      pwd: "",
+    };
+  }
+
+  nameChange = (e) => {
+    this.setState({ name: e.target.value });
+    console.log(this.state.name);
+  };
+
+  pwdChange = (e) => {
+    this.setState({ pwd: e.target.value });
+    console.log(this.state.pwd);
+  };
+
+  validate = (e) => {
+    e.preventdefault();
+    if (this.state.name === this.state.pwd) {
+      alert("You are logged in");
+    } else if (this.state.name === "" || this.state.pwd === "") {
+      alert("Please fill in the fields");
+    } else {
+      alert("Invalid Credentials");
+    }
+  };
+
+  render() {
+    return (
+      <form className="loginPage">
+        <div className="container1">
+          <h2 className="welcome">WELCOME!</h2>
+          <br />
+          <h3 className="desc">Enter your ID and Password</h3>
+        </div>
+        <div className="container2">
+          <p className="heading">SIGN IN</p>
+          <input
+            className="uname"
+            type="text"
+            placeholder="Enter User Name Here"
+            onChange={this.nameChange}
+          />
+          <br />
+          <input
+            className="pwd"
+            type="text"
+            placeholder="Enter Password"
+            onChange={this.pwdChange}
+          ></input>
+          <br />
+          <div className="button">
+            <button className="btn" onClick={this.validate}>
+              Login
+            </button>
+          </div>
+          <div className="forgotPwd">
+            <a href="#" className="forgot">
+              Forgot Password
+            </a>
+          </div>
+        </div>
+      </form>
+    );
+  }
+}
+
+export default LoginPage;

@@ -1,0 +1,22 @@
+.Nav {
+  padding: 10px 210px 40px 10px;
+  text-align: center;
+  margin-right: 400%;
+}
+
+.links {
+  margin: 20px 200px 222px 0px;
+}
+
+li {
+  padding: 10px 5px 15px 42px;
+  margin-left: 25px;
+}
+
+a {
+  color: white;
+}
+
+a li :hover{
+    color: tomato;
+}

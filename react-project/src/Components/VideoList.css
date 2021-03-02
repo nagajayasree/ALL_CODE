@@ -1,0 +1,44 @@
+.video_col_1 {
+  margin-top: 125px;
+}
+
+.video_card {
+  width: 12rem;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: -25px;
+}
+
+.video_body {
+  cursor: pointer;
+}
+.video_title {
+  color: black;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  transform: translateY(1.52px);
+}
+
+.video_desc {
+  letter-spacing: 1px;
+  text-align: justify;
+  color: black;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  transform: translateY(1.52px);
+}
+
+.video_content :hover {
+  text-decoration: none;
+}
+
+.video_search {
+  margin-left: 450px;
+  border-radius: 20px;
+}
+
+.video_search:focus {
+  outline: none;
+}

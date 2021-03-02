@@ -1,0 +1,67 @@
+#stuForm {
+  background-color: lightblue;
+  padding-bottom: 350px;
+}
+
+.header {
+  padding-left: 370px;
+}
+
+.fdp{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.inputfield {
+  border-radius: 30px;
+  /* text-indent: 10px; */
+  /* text-rendering: auto; */
+  font-size: 15px;
+}
+
+.inputfield:focus {
+  outline: none;
+}
+
+.btn_1 {
+  padding-top: 10px;
+  padding-left: 420px;
+}
+
+.btn_2 {
+  padding-top: 10px;
+}
+
+.subBtn {
+  border: none;
+  border-radius: 15px;
+  padding: 3px 15px 3px 15px;
+  background-color: rgb(125, 125, 219);
+  color: white;
+  text-transform: uppercase;
+}
+
+.refBtn {
+  border: none;
+  border-radius: 15px;
+  padding: 3px 15px 3px 15px;
+  background-color: rgb(125, 125, 219);
+  color: white;
+  text-transform: uppercase;
+}
+
+.subBtn:hover {
+  background-color: rgb(81, 180, 247);
+}
+
+.subBtn:focus {
+  outline: none;
+}
+
+.refBtn:hover {
+  background-color: rgb(81, 180, 247);
+}
+
+.refBtn:focus {
+  outline: none;
+}

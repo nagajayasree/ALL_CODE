@@ -1,0 +1,29 @@
+JS
+https://dev.to/nexttech/building-your-first-react-website-c5c
+https://www.w3schools.com/whatis/default.asp
+http://www.diveintojavascript.com/tutorials/web-storage-tutorial-creating-an-address-book-application
+js practice - https://practity.com/582-2/
+
+REACT
+
+https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw    ben awad
+
+theory-
+https://interglobalmedia.gitbooks.io/react-notes/
+http://buildwithreact.com/tutorial
+
+react tutorials-
+ui design from scratch -
+https://dev.to/llorentegerman/building-a-ui-from-scratch-based-on-a-design-with-reactjs-3l1e
+https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/
+https://tylermcginnis.com/free-react-bootcamp/
+https://scrimba.com/g/glearnreact
+https://egghead.io/courses/the-beginner-s-guide-to-react
+
+npm install --save font-awesome
+import 'font-awesome/css/font-awesome.min.css' --- index.js
+
+challenges
+https://scotch.io/courses/10-react-challenges-beginner
+https://github.com/alexgurr/react-coding-challenges
+ 

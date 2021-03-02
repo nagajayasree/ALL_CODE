@@ -1,0 +1,20 @@
+.AddBlogForm {
+  margin-left: 195px;
+}
+
+.AddBlogHead {
+  margin-top: 125px;
+  margin-left: 400px;
+  margin-bottom: 40px;
+}
+
+.addBlg_Subtn {
+  margin: 30px 10px 10px 230px;
+  /* background-color: rgb(62, 105, 248); */
+  /* border-radius: 5px; */
+  /* border: none; */
+}
+
+.inputField {
+  margin-bottom: 10px;
+}

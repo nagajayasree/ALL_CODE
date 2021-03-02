@@ -1,0 +1,25 @@
+.header {
+  padding-bottom: 10px;
+}
+
+.cards {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.card_small {
+  float: left;
+  padding-left: 10px;
+}
+
+.card_up {
+  float: left;
+  padding: 10px 5px 5px 10px;
+  margin-top: -25px;
+  margin-right: 15px;
+}
+
+.card_btm {
+  position: relative;
+  padding: 0px 0px 0px 10px;
+}

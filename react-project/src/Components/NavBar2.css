@@ -1,0 +1,41 @@
+.navBar {
+  background-color: #a7a1d6;
+  position: static;
+  padding-bottom: 308px;
+  height: 800px;
+  /* height: inherit; */
+  width: 280px;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-left: 63px;
+  margin-bottom: 30px;
+}
+
+.tabs {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  color: black;
+}
+
+.nav-pills .nav-link.active {
+  border-radius: 800px;
+  background-color: rgb(90, 84, 84);
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+}
+
+.tabs :focus {
+  outline: none;
+}
+
+.nav-pills .nav-link:hover {
+  color: white;
+}

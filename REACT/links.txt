@@ -1,0 +1,35 @@
+https://dev.to/nexttech/building-your-first-react-website-c5c
+
+https://www.w3schools.com/whatis/default.asp
+
+
+http://www.diveintojavascript.com/tutorials/web-storage-tutorial-creating-an-address-book-application
+
+
+js practice - https://practity.com/582-2/
+
+traversy media = https://www.youtube.com/user/TechGuyWeb/playlists
+
+learn web code = https://www.youtube.com/user/LearnWebCode/videos
+
+https://www.reactenlightenment.com/what-is-react.html
+
+
+1080*360
+
+
+
+https://github.com/nagajayasree/DailyTasks.git
+
+…or create a new repository on the command line
+
+echo "# DailyTasks" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/nagajayasree/DailyTasks.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/nagajayasree/DailyTasks.git
+git push -u origin master
